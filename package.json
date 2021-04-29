@@ -35,7 +35,7 @@
     "trailingComma": "es5"
   },
   "name": "browser-monads-ts",
-  "description": "Provide interfaces for the window and document variables of a webpage.",
+  "description": "Provide interfaces for the window, document and navigator variables of a webpage.",
   "author": "Daniel Esteves",
   "module": "dist/browser-monads-ts.esm.js",
   "size-limit": [
