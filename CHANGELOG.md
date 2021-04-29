@@ -1,3 +1,9 @@
+#### 1.0.4 (2021-04-29)
+
+##### Documentation Changes
+
+* **scripts:**  generate changelog minor, major, patch (edb8ecb6)
+
 #### 1.0.3 (2021-04-29)
 
 ##### Chores
