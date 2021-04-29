@@ -1,4 +1,4 @@
-# Browser Mondas TS
+# Browser Monads TS
 
 <p align="center">
   <a href="https://www.npmjs.org/package/browser-monads-ts">
