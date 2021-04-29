@@ -1,3 +1,9 @@
+#### 1.0.7 (2021-04-29)
+
+##### Documentation Changes
+
+* **typo:**  title of the readme ([32facada](https://github.com/danestves/browser-monads-ts/commit/32facadab1229d87941f8935c19ef48cb144ae89))
+
 #### 1.0.6 (2021-04-29)
 
 ##### Documentation Changes
