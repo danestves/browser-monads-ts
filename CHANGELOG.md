@@ -1,3 +1,9 @@
+#### 1.0.6 (2021-04-29)
+
+##### Documentation Changes
+
+* **package:**  adding metadata for package.json ([2d875b2f](https://github.com/danestves/browser-monads-ts/commit/2d875b2feac925adaaa5e743a8823e232dd0f40d))
+
 #### 1.0.5 (2021-04-29)
 
 ##### Documentation Changes
