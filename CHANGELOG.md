@@ -1,3 +1,9 @@
+#### 1.0.5 (2021-04-29)
+
+##### Documentation Changes
+
+* **badge:**  adding badge of workflows (2521df82)
+
 #### 1.0.4 (2021-04-29)
 
 ##### Documentation Changes
