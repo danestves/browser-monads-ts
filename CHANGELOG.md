@@ -1,3 +1,13 @@
+### 1.2.0 (2021-04-29)
+
+##### Chores
+
+* **auto:**  updated CHANGELOG.md ([a6509445](https://github.com/danestves/browser-monads-ts/commit/a6509445a10b7ccb919beaab3954d9a8bc7864be))
+
+##### New Features
+
+* **navigator:**  add support for navigator from global ([54ab0ece](https://github.com/danestves/browser-monads-ts/commit/54ab0ece749ca340a529f4ac56dfb9e2ba8d259e))
+
 ### 1.1.0 (2021-04-29)
 
 ##### New Features
