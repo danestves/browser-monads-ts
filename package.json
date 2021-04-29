@@ -18,9 +18,9 @@
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "prerelease": "cross-env-shell changelog --$npm_config_type && git add CHANGELOG.md && git commit -m \"chore(auto): updated CHANGELOG.md\" ",
-    "release": "cross-env-shell npm version $npm_config_type",
-    "postrelease": "git push origin && git push origin --tags --no-verify"
+    "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'chore(auto): updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+    "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'chore(auto): updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'chore(auto): updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
   },
   "peerDependencies": {},
   "husky": {
