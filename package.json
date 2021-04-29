@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -35,6 +35,7 @@
     "trailingComma": "es5"
   },
   "name": "browser-monads-ts",
+  "description": "Provide interfaces for the `window` and `document` variables of a webpage.",
   "author": "Daniel Esteves",
   "module": "dist/browser-monads-ts.esm.js",
   "size-limit": [

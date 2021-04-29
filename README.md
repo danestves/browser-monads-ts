@@ -11,7 +11,7 @@
 
 > This package is inspired by [browser-monads](https://github.com/Jense5/browser-monads) currently without support from the author.
 
-Provide interfacs for the `window` and `document` variables of a webpage.
+Provide interfaces for the `window` and `document` variables of a webpage.
 
 ## What is a monad?
 
