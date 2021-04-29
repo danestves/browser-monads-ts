@@ -7,6 +7,9 @@
   <a href="https://www.npmjs.org/package/browser-monads-ts">
     <img src="https://img.shields.io/npm/dm/browser-monads-ts.svg" alt="Monthly download on NPM" />
   </a>
+  <a href="https://github.com/danestves/browser-monads-ts/actions">
+    <img src="https://img.shields.io/github/workflow/status/danestves/browser-monads-ts/main" alt="Workflow of main.yml action" />
+  </a>
 </p>
 
 > This package is inspired by [browser-monads](https://github.com/Jense5/browser-monads) currently without support from the author.
