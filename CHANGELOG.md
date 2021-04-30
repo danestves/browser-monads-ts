@@ -1,3 +1,9 @@
+#### 1.2.2 (2021-04-30)
+
+##### Documentation Changes
+
+* **description:**  add more detailed description ([957754e1](https://github.com/danestves/browser-monads-ts/commit/957754e1d3d72d1e9e04ea5e26e6ed5f91defaff))
+
 #### 1.2.1 (2021-04-30)
 
 ##### Documentation Changes
