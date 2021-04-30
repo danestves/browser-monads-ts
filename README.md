@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/npm/dm/browser-monads-ts.svg" alt="Monthly download on NPM" />
   </a>
   <a href="https://github.com/danestves/browser-monads-ts/actions">
-    <img src="https://img.shields.io/github/workflow/status/danestves/browser-monads-ts/main" alt="Workflow of main.yml action" />
+    <img src="https://github.com/danestves/browser-monads-ts/workflows/CI/badge.svg" alt="Workflow of main.yml action" />
   </a>
 </p>
 
