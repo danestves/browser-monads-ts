@@ -1,3 +1,9 @@
+#### 1.2.1 (2021-04-30)
+
+##### Documentation Changes
+
+* **badge:**  change badge of workflow ([3d83395e](https://github.com/danestves/browser-monads-ts/commit/3d83395ea24177b6d6737b6347f1beaa68ceccb9))
+
 ### 1.2.0 (2021-04-29)
 
 ##### Chores
