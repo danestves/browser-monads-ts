@@ -1,3 +1,9 @@
+#### 1.2.3 (2021-06-19)
+
+##### Other Changes
+
+* **chore:**  updating dependencies ([85869ffa](https://github.com/danestves/browser-monads-ts/commit/85869ffacc00b6b794710dae967ac9170f7a1155))
+
 #### 1.2.2 (2021-04-30)
 
 ##### Documentation Changes
