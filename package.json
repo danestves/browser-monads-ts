@@ -23,11 +23,6 @@
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'chore(auto): updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
   },
   "peerDependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
