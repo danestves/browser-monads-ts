@@ -14,7 +14,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test",
-    "lint": "tsdx lint",
+    "lint": "tsdx lint src",
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
@@ -49,14 +49,15 @@
     }
   ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^4.12.0",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@size-limit/preset-small-lib": "^6.0.4",
     "cross-env": "^7.0.3",
     "generate-changelog": "^1.8.0",
-    "husky": "^6.0.0",
-    "size-limit": "^4.12.0",
+    "husky": "^7.0.4",
+    "size-limit": "^6.0.4",
     "tsdx": "^0.14.1",
-    "tslib": "^2.3.0",
-    "typescript": "^4.3.4"
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
   },
   "dependencies": {
     "nothing-mock": "^1.0.4"
