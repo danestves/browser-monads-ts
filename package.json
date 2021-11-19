@@ -17,7 +17,6 @@
     "lint": "tsdx lint src",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why",
     "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'chore(auto): updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
     "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'chore(auto): updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'chore(auto): updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags"
@@ -45,14 +44,14 @@
   ],
   "devDependencies": {
     "@rollup/plugin-replace": "^3.0.0",
-    "@size-limit/preset-small-lib": "^6.0.4",
+    "@size-limit/preset-small-lib": "^7.0.3",
     "cross-env": "^7.0.3",
     "generate-changelog": "^1.8.0",
     "husky": "^7.0.4",
-    "size-limit": "^6.0.4",
+    "size-limit": "^7.0.3",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
-    "typescript": "^4.4.4"
+    "typescript": "^4.5.2"
   },
   "dependencies": {
     "nothing-mock": "^1.0.4"
