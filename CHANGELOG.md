@@ -1,3 +1,17 @@
+#### 1.2.5 (2021-11-19)
+
+##### Chores
+
+* **bump:**  update dependencies ([e524c0cc](https://github.com/danestves/browser-monads-ts/commit/e524c0cc674aa8b10c84d5f677ba07a3a19f9ab8))
+* **deps:**
+  *  update actions/checkout action to v2 ([ffa53b3f](https://github.com/danestves/browser-monads-ts/commit/ffa53b3f3b0cf7746bf35180d0cb68a64c6b8b76))
+  *  add renovate.json ([85e7998c](https://github.com/danestves/browser-monads-ts/commit/85e7998c50a322d066accf449e3162e79c31ce0c))
+
+##### Bug Fixes
+
+* **ci:**  using updated version of node in ci ([18dc933a](https://github.com/danestves/browser-monads-ts/commit/18dc933a53bb973ce6b8f99961a52d8d18faa45b))
+*  using new version of husky ([a9f030f6](https://github.com/danestves/browser-monads-ts/commit/a9f030f6642393396ebf49fb63b1c3e7ddf8b03f))
+
 #### 1.2.4 (2021-11-15)
 
 ##### Chores
