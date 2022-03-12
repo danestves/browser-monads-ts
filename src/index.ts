@@ -1,10 +1,11 @@
+// Dependencies
 import { Nothing, isNothing } from 'nothing-mock';
 
-const win = global.window;
-const doc = global.document;
-const nav = global.navigator;
+let win = global.window;
+let doc = global.document;
+let nav = global.navigator;
 
-export const document: Document = typeof doc !== 'undefined' ? doc : Nothing;
-export const exists = (variable: any) => !isNothing(variable);
-export const navigator: Navigator = typeof nav !== 'undefined' ? nav : Nothing;
-export const window: Window = typeof win !== 'undefined' ? win : Nothing;
+export let document: Document = typeof doc !== 'undefined' ? doc : Nothing;
+export let exists = (variable: any) => !isNothing(variable);
+export let navigator: Navigator = typeof nav !== 'undefined' ? nav : Nothing;
+export let window: Window = typeof win !== 'undefined' ? win : Nothing;
