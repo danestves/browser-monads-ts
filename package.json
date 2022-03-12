@@ -1,6 +1,6 @@
 {
   "name": "browser-monads-ts",
-  "version": "2.0.0-canary.2",
+  "version": "2.0.0-canary.3",
   "description": "Provide interfaces for the window, document and navigator variables of a webpage.",
   "homepage": "https://github.com/danestves/browser-monads-ts#readme",
   "bugs": {
