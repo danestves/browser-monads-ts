@@ -1,17 +1,18 @@
 // Dependencies
 import { Nothing, isNothing } from 'nothing-mock';
 
-if (global === undefined) {
-  (window as any).global = window;
-}
+// Internals
+import type {Exports} from "./types"
 
-const win = global.window;
-const doc = global.document;
-const nav = global.navigator;
+let win = global.window;
+let doc = global.document;
+let nav = global.navigator;
 
-export default {
+let exports: Exports = {
   document: typeof doc !== 'undefined' ? doc : Nothing,
   exists: (variable: any) => !isNothing(variable),
   navigator: typeof nav !== 'undefined' ? nav : Nothing,
   window: typeof win !== 'undefined' ? win : Nothing,
 };
+
+export default exports;
