@@ -33,7 +33,7 @@ This library makes it possible to use these variables without checks with [Gatsb
 ## Example
 
 ```js
-import { window, document, exists } from 'browser-monads';
+import { window, document, exists } from 'browser-monads-ts';
 
 // inside browser ? window.location.href : ''
 window.location.href;
